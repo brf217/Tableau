@@ -1,0 +1,2 @@
+# Find latest non-null date. Same construct for finding max date in a database that can be used in a filter
+{FIXED : MAX(IF NOT [Is Sales Null] THEN [Date] END) }
